@@ -1,0 +1,22 @@
+form {
+    width: 80%;
+    padding: 6px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    box-shadow: 0 10px 25px #161616ab;
+}
+
+.form input {
+    border: none;
+    padding: 10px 16px;
+    border-radius: 50px 0 0 50px;
+}
+
+.form button {
+    border: none;
+    border-radius: 0 50px 50px 0;
+    padding: 10px 8px;
+    cursor: pointer;
+}
